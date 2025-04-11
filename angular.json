@@ -29,7 +29,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -91,11 +92,17 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ed32a8b2-f932-417c-b396-6d5b0b64f0b8"
   }
 }
