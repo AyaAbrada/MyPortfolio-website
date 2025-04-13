@@ -1,0 +1,54 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #4CAF50;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+    .contact, .languages, .soft-skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    

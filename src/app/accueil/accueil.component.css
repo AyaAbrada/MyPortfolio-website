@@ -1,0 +1,75 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5); /* assombrit un peu l’image pour mieux voir le texte */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute; 
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.presentation,
+.social-links {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.presentation h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.presentation h3 {
+    font-size: 20px;
+    color: #555;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+a {
+    color: blue; /* اللون العادي ديال الرابط */
+    text-decoration: none; /* باش تحيد underline إلا بغيتي */
+  }
+  
+  a:visited {
+    color: purple; /* اللون منين يكون الرابط مزور */
+  }
+  
+  a:hover {
+    color: red; /* اللون منين تدوز الفأرة عليه */
+  }
+  
+  a:active {
+    color: green; /* اللون منين تكليكي عليه */
+  }

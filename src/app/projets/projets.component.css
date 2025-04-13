@@ -1,0 +1,48 @@
+.carte {
+    background-color: #fff;
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+}
+
+.titre {
+    font-size: 15px; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+a {
+    color: blue; /* اللون العادي ديال الرابط */
+    text-decoration: none; /* باش تحيد underline إلا بغيتي */
+  }
+  
+  a:visited {
+    color: purple; /* اللون منين يكون الرابط مزور */
+  }
+  
+  a:hover {
+    color: red; /* اللون منين تدوز الفأرة عليه */
+  }
+  
+  a:active {
+    color: green; /* اللون منين تكليكي عليه */
+  }
+  
+  .body {
+    display: flex;
+    justify-content: space-between; /* يباعد بينهم */
+    flex-wrap: wrap; /* يخليهم يهبطو فالشاشات الصغيرة */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .section1 {
+    width: 48%; /* كل وحدة تاخد تقريبا نص */
+    box-sizing: border-box;
+  }
+  
+  
