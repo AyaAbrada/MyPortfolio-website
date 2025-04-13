@@ -58,18 +58,35 @@
     margin-top: 10px;
 }
 a {
-    color: blue; /* اللون العادي ديال الرابط */
-    text-decoration: none; /* باش تحيد underline إلا بغيتي */
+    color: blue; 
+    text-decoration: none;
   }
   
   a:visited {
-    color: purple; /* اللون منين يكون الرابط مزور */
+    color: purple; 
   }
   
   a:hover {
-    color: red; /* اللون منين تدوز الفأرة عليه */
+    color: red; 
   }
   
   a:active {
-    color: green; /* اللون منين تكليكي عليه */
+    color: green; 
+  }
+
+  @media (max-width: 768px) {
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 1rem;
+        color: white;
+      }
+      
   }

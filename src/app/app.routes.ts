@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProposComponent } from './propos/propos.component';
 import { CVComponent } from './cv/cv.component';
 
+
 export const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'contact', component: ContactComponent },
