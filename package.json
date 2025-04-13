@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "portfoli-o",
   "version": "0.0.0",
   "scripts": {
@@ -44,11 +43,6 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2"
-=======
-  "dependencies": {
-    "bootstrap": "^5.3.5",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1"
->>>>>>> 91d75d0bc4bf872b1fbea7aa7f8e9a1868146539
+
   }
 }
